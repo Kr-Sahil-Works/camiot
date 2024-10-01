@@ -1,0 +1,89 @@
+/* google fonts link */
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+
+  .gmap {
+   margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0c0d0f;
+  }
+
+  .map-box{
+  display: flexbox;
+  align-items: center;
+  justify-content: center;
+  /* gap: 5em; */
+  color: white;
+  max-width: 600px;
+  margin-right: 5%;
+  }
+
+  .map-box h1 {
+    font-size: 5em;
+    margin-bottom: 40px;
+  }
+ p{
+    font-size: 2em;
+    width: 70%;
+  }
+/* ----------------------------------------  */
+
+iframe {
+  border-radius: 10px;
+  box-shadow: 2px 2px 20px #077982ea;
+  opacity: 0.9;
+  transition: 0.3s ease-in-out;
+}
+
+iframe:hover{
+  transform: scale(1.1);
+  opacity: 1;
+  box-shadow: 2px 2px 20px #13cfe0ea;
+}
+
+
+/* --------------------------------------------------------  */
+
+.theme-text {
+  color: #13cfe0ea;
+}
+
+.card-img-top {
+  height: 200px;
+  width: 100%;
+}
+.card {
+  z-index: 1;
+  overflow: hidden;
+  transition: 0.5s;
+}
+.card:hover {
+  color: white;
+}
+.card::before {
+  content: "";
+  position: absolute;
+  left: -100%;
+  top: 0%;
+  background:#077982ea ;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+  z-index: -1;
+}
+.card:hover::before {
+  left: 0%;
+  color: white;
+}
+.container-fluid {
+  background-image: url("blob-scene-haikei.svg");
+  background-position: center;
+  background-size: cover;
+}
+
+
+

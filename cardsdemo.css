@@ -1,0 +1,80 @@
+/* __________________________________________________________ */
+
+.subcards img{
+    width: 260px;
+    height: 180px;
+    border-radius: 20px;
+}
+
+.maincard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    margin: 50px auto;
+    width:75%;
+    padding: 50px 50px;
+}
+.maincard .subcards{
+    width: 280px;
+    height: 540px;
+    margin-bottom: 40px;
+    margin-right: 8px;
+
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px 15px;
+
+    border-radius: 7px;
+    border: solid 1px #ffffff23 ;
+    color: rgb(0, 0, 0);
+
+    background:#ffffffbe ;
+    /* background:#35276d35 ; */
+    box-shadow: 0 8px 32px 0 #0c0c106a;
+    backdrop-filter: blur(2px);
+    font-size: 20px; 
+}
+
+.subcards h4{
+    /* margin-top: -2px; */
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #000000;
+    
+}
+
+
+.subcards .demo-profile-details h5{
+    text-align: center;
+}
+.subcards .demo-profile-details p {
+    text-align: center;
+    font-size: 15px;
+}
+
+
+
+
+.cards-button {
+    margin-left:28%;
+    color: #ecf0f1;
+    font-size: 17px;
+    background-color: #15ace8;
+    border: 1px solid #139fc9;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    box-shadow: 0px 6px 0px #155c7d;
+    transition: all 0.1s;
+  }
+  
+  .cards-button:active {
+    box-shadow: 0px 2px 0px #1c0c4c;
+    position: relative;
+    top: 2px;
+  }
+  
