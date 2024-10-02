@@ -27,7 +27,7 @@ let valueContainer = document.querySelector(".value-container");
 
 let progressValue = 0;
 let progressEndValue = 100;
-let speed = 50;
+let speed = 100;
 
 let progress = setInterval(() => {
   progressValue++;
