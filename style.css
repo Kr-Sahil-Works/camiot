@@ -507,8 +507,8 @@ footer{
 /* -----------------------------------------------------------------------------  */
 
 .container-promain {
-  height: 400px;
-  width: 400px;
+  height: 200px;
+  width: 200px;
   /* background-color: #ffffff; */
   /* position: absolute; */
   transform: translate(-50%, -50%);
@@ -517,10 +517,10 @@ footer{
   border-radius: 8px;
   box-shadow: 20px 20px 40px rgba(60, 60, 150, 0.25);
   /* display: grid; */
-  place-items: center;
+  /* place-items: center; */
 }
 .circular-progress {
-  position: relative;
+  /* position: relative; */
   height: 250px;
   width: 250px;
   border-radius: 50%;
@@ -529,14 +529,14 @@ footer{
 }
 .circular-progress:before {
   content: "";
-  position: absolute;
+  /* position: absolute; */
   height: 84%;
   width: 84%;
   background-color: #ffffff;
   border-radius: 50%;
 }
 .value-container {
-  position: relative;
+  /* position: relative; */
   font-family: "Poppins", sans-serif;
   font-size: 50px;
   color: #231c3d;
