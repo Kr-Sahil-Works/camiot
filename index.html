@@ -4,6 +4,10 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"/>
+ <!-- FontAwesome Icons -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="style.css" />
 <link rel="stylesheet" href="components_css/button2.css" />
 <link rel="stylesheet" href="components_css/scroll.css" />
@@ -11,7 +15,6 @@
 <link rel="stylesheet" href="components_css/cardsdemo.css" />
 <link rel="stylesheet" href="components_css/logo-scroll.css">
 <link rel="icon" type="image/svg+xml" href="./Assets/logoweb.png" />
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet" />
 <title>CAMIOT SOLUTIONS</title>
 </head>
 <body>
@@ -59,10 +62,37 @@
 </nav>
 <!-- ------------------------------------------------------------------------------------------------------------- -->
 <main>
+
 <div class="hero-section">
     <img src="./Assets/t3.png" alt="camiot" class="HEROIMG">
     <div class="hero-text"><h1 class="ttx">LED VIDEO WALLS</h1></div>
     
+</div>
+
+<div class="wrapperpro">
+  <div class="containerpro">
+    <i class="fas fa-utensils"></i>
+    <span class="num" data-val="87">000</span>
+    <span class="text">Satisfication Rate</span>
+  </div>
+
+  <div class="containerpro">
+    <i class="fas fa-smile-beam"></i>
+    <span class="num" data-val="3483">000</span>
+    <span class="text">Happy Customers</span>
+  </div>
+
+  <div class="containerpro">
+    <i class="fas fa-list"></i>
+    <span class="num" data-val="2721">000</span>
+    <span class="text">Panels Delivered</span>
+  </div>
+
+  <div class="containerpro">
+    <i class="fas fa-star"></i>
+    <span class="num" data-val="1700">000</span>
+    <span class="text">Five Stars</span>
+  </div>
 </div>
 
 <div class="hero-para">
@@ -70,30 +100,12 @@
         CAMIOT is a global leader for LED video wall solutions with thousands of marquee installations around the world. We deliver high performance, commercial grade, direct view LED displays with pixel pitches from 0.6mm to 20mm; for everything from the highest-resolution MicroLED video walls for cinema and on-camera applications, to the biggest sports venue video boards and touch-based displays for collaborative spaces.
     </p>
 </div>
-<div class="dyntext">
-<div class="container-promain">
-  <div class="circular-progress">
-    <div class="value-container">0%</div>
-  </div>
-</div>
-<div class="container-promain">
-  <div class="circular-progress">
-    <div class="value-container">0%</div>
-  </div>
-</div>
-<div class="container-promain">
-  <div class="circular-progress">
-    <div class="value-container">0%</div>
-  </div>
-</div>
-</div>
-
 
 <hr width="70%" class="line"/>
 <div class="mid">
 <h1 class="mid-h1">Camiot LED Highlights</h1>
 </div>
-<section aria-label="Newest Photos">
+<section aria-label="Newest Photos" class="carouselsection">
   <div class="carousel-main">
       <div class="carousel" data-carousel>
         <button class="carousel-button prev" data-carousel-button="prev">&#8656;</button>
@@ -126,8 +138,8 @@
 
 
 
-<div class="boxes">
-  <div class="cardbg">
+<div class="boxes" >
+  <div class="cardbg" >
     <div class="content">
       <svg
         fill="currentColor"
@@ -149,7 +161,11 @@
 </div>
 
 <!-- __________________ DEMO-CARDS SECTION______________________ -->
-    
+
+
+
+
+
   <section class="demo_cards_area">
     <div class="maincard">
          <!-- CARD NO.1 -->
@@ -164,7 +180,7 @@
                <p> Available Pixel Pitches:<br/>
                0.6, 0.7, 0.9, 1.2</p>
                </div>
-               <button class="cards-button">Learn More</button>
+               <button onclick="displayfullcard1()" class="cards-button">Learn More</button>
           </div>
          <!-- CARD NO.2 --> 
           <div class="subcards">
@@ -349,8 +365,8 @@
       <a href="./pages/services.html" style="text-decoration: none; color: #cecdcd;"><li class="ft-items">Training & Education Room</li></a>
      </ul>
 
-     <h2 class="Copyright">Copyright © 2024   All rights reserved.
-    </h2>
+     <!-- <h2 class="Copyright">Copyright © 2024   All rights reserved.
+    </h2> -->
   </div>
 </footer>
 <!-- POP-UP BOX -->
@@ -362,13 +378,6 @@
 <button>CHAT</button></a>
 <!-- onclick="closePopup()" -->
 </div>
-
-<!-- <div>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/6Qm7pHtPNmc?si=_ZTd2xlwUd6KJEtv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/6Qm7pHtPNmc?si=_ZTd2xlwUd6KJEtv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/6Qm7pHtPNmc?si=_ZTd2xlwUd6KJEtv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div> -->
-
 
 </body>
 <script src="script.js"></script>
